@@ -1,10 +1,5 @@
-body{
-    margin:0;
-    padding:0;
-}
-
 .large-header {
-   position: relative;
+   position: absolute;
    width: 100%;
    background: #111;
    overflow: hidden;
@@ -43,8 +38,4 @@ body{
    .demo .main-title {
       font-size: 3em;
    }
-}
-
-h1 {
-    font-family: sans-serif;
 }
