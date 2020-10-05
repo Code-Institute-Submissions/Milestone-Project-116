@@ -9,7 +9,7 @@ Last but not least the project provides an easy way to get in touch with Nico.
 
 ## Strategy
 
-> As mentioned in the sales pitch we want to develop an appealing portfolio website that leaves an impression with its users which will mostly be recruiters. The most important question here is definitely how do we stand out? What will leave an impression?<br><br>From the moment a user visits the website it is important that his curiousity is triggerd and he is eager to find out more. A possible way to do this is to implement an eyecatcher which will trigger the users interest and keep him or her on the website.<br><br>Another solution to trigger the users interest is to provide him or her with, next to the usual information you find on portfolio sites, out of the box content which will give him or her more insight on the personality behind the personalia data, skillset and workhistory.<br><br>Needless to say that it is in everyone's best intereset that users are able to make contact swiftly.
+> As mentioned in the sales pitch we want to develop an appealing portfolio website that leaves an impression with its users which will mostly be recruiters. The most important question here is definitely how do we stand out? What will leave an impression?<br><br>From the moment a user visits the website it is important that his curiousity is triggered and he or she is eager to find out more. A possible way to do this is to implement a hero image which will trigger the users interest and keep him or her on the website.<br><br>Another solution to trigger the users interest is to provide him or her with, next to the usual information you find on portfolio sites, out of the box content which will give him or her more insight on the personality behind the personalia data, skillset and workhistory.<br><br>Needless to say that it is in everyone's best intereset that users are able to make contact swiftly.
 
 <br>
 
@@ -19,7 +19,7 @@ Last but not least the project provides an easy way to get in touch with Nico.
 ## Scope / Features
 
 > Based on what we have determined in our strategy and taken into account in our user stories, the project should contain the following features:<br>
-<br>- Eyecatcher;<br>- Intuitive navigation enabling users to find out more on education, skillset, work experience and projects worked on; which will be referred to as the <span style="color:blue">relevant information section</span>.<br>- In the same navigation being able to find out more on Nico's miscellaneous activities; which will be referred to as the <span style="color:red">less relevant information section</span>.<br>- Make it easy for users to get 
+<br>- Appealing hero image;<br>- Intuitive navigation enabling users to find out more on education, skillset, work experience and projects worked on; which will be referred to as the <span style="color:blue">relevant information section</span>.<br>- In the same navigation being able to find out more on Nico's miscellaneous activities; which will be referred to as the <span style="color:red">less relevant information section</span>.<br>- Make it easy for users to get 
 in touch; which will be referred to as the <span style="color:green">contact section</span>.<br><br>
 
 <br>
@@ -60,7 +60,7 @@ in touch; which will be referred to as the <span style="color:green">contact sec
 
 ## Content
 
-> - The eyecatcher used in all 3 sections was found via google using the following search: "amazing animated css backgrounds": [1st result seemed interesting](https://1stwebdesigner.com/15-css-background-effects/).
+> - The animated hero image used in all 3 sections was found via google using the following search: "amazing animated css backgrounds": [1st result seemed interesting](https://1stwebdesigner.com/15-css-background-effects/).
 > <br>You can check the complete code I used for this project [here](https://codepen.io/jasperlachance/pen/QNMwBg).
 > <br>Credits to Jasper La Chance; great stuff.
 
