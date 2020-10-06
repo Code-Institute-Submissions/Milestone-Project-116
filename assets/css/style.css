@@ -3,7 +3,7 @@ body{
     padding:0;
 }
 
-/*-------------------------------------- Hero Image credits to Jasper La Chance --------------------------------------*/
+/*-------------------------------------- Hero Image Background (credits to Jasper La Chance) & Titles  --------------------------------------*/
 
 .large-header {
    position: relative;
@@ -37,8 +37,23 @@ body{
     letter-spacing: 5px;
 }
 
-@media only screen and (max-width: 768px) {
-   .demo .main-title {
-      font-size: 3em;
-   }
+/*-------------------------------------- Social Links in header --------------------------------------*/
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align:center;
+    color: #FAFAFA;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #5DADE2;
 }
