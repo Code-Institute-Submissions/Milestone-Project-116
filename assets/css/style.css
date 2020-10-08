@@ -41,7 +41,7 @@ body{
 /*-------------------------------------- Social Links in header --------------------------------------*/
 
 .social-links {
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 .social-links li a i {
@@ -72,14 +72,34 @@ body{
     left; 0px;
     z-index: 1;
     background-color: rgb(0,0,0,0);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
-.navbarproperties .navbar-toggler {
+.navbarproperties a {
+    color:#FAFAFA;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbarproperties a:hover {
+    color:#5DADE2;
+}
+
+.navbar-toggler {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 15px;
     z-index: 1;
     border: 0;
 }
+
+.navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=FAFAFA');
+font-size: 18px;
+}
+
 
 
