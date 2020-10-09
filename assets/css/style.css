@@ -1,7 +1,8 @@
 body{
     margin:0;
     padding:0;
-    
+    background-color:#FAFAFA
+
     /*
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
     background-repeat: repeat;
@@ -114,4 +115,26 @@ font-size: 18px;
 
 .aboutme {
     background-color: #FAFAFA;
+}
+
+.img-gradient {
+  position:relative;
+  display:inline-block;
+}
+
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+background: rgb(250,250,250);
+background: -moz-linear-gradient(90deg, rgba(250,250,250,0) 25%, rgba(250,250,250,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(250,250,250,0) 25%, rgba(250,250,250,1) 100%);
+background: linear-gradient(90deg, rgba(250,250,250,0) 25%, rgba(250,250,250,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#fafafa",GradientType=1);
+
+}
+.img-gradient img{
+  display:block;
 }

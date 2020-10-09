@@ -60,12 +60,11 @@ in touch; which will be referred to as the <span style="color:green">contact sec
 
 ## Content
 
+## Media
+
 > - The animated hero image used in all 3 sections was found via google using the following search: "amazing animated css backgrounds": [1st result seemed interesting](https://1stwebdesigner.com/15-css-background-effects/).
 > <br>You can check the complete code I used for this project [here](https://codepen.io/jasperlachance/pen/QNMwBg).
 > <br>Credits to Jasper La Chance; great stuff.
-
-## Media
-
 
 ## Acknowledgments
 
