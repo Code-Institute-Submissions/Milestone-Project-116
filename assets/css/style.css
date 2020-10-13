@@ -114,6 +114,8 @@ font-size: 18px;
 .lightsection {
     position:relative;
     background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .img-gradient {
@@ -197,4 +199,8 @@ font-size: 18px;
 
 .expandicon i {
     margin-right: 5px;
+}
+
+.imagecontainer {
+    max-width: 134px;
 }
