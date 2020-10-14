@@ -9,6 +9,65 @@ body {
     background-repeat: repeat-y;
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: hidden;
+}
+
+/*-------------------------------------- Headings, text and colors --------------------------------------*/
+
+.lightsection {
+    position:relative;
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.darksection {
+    position:relative;
+}
+
+.lightbgheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #5DADE2;    
+}
+
+.darkbgheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FAFAFA;    
+}
+
+.workhistorytitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #34495E;    
+}
+
+.workhistorysubtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #34495E;    
+}
+
+.lightbgtext {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
 /*-------------------------------------- Hero Image Background (credits to Jasper La Chance) & Titles  --------------------------------------*/
 
 .large-header {
@@ -111,20 +170,14 @@ font-size: 18px;
 
 /*-------------------------------------- About Me Section --------------------------------------*/
 
-.lightsection {
-    position:relative;
-    background-color: #fafafa;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.img-gradient {
+.aboutmeimage {
     position:relative;
     display:inline-block;
     margin: 20px 10px 20px 10px;
+    float: right;
 }
 
-.img-gradient:after {
+.aboutmeimage:after {
     content:'';
     position:absolute;
     left:0; top:0;
@@ -137,27 +190,38 @@ font-size: 18px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#fafafa",GradientType=1);
 }
 
-.aboutmeimagesection {
-    display: table-cell;
-    float: right;
-}
-
-.lightbgheading {
-    margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: #5DADE2;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 20px;
+.aboutmetextposition {
     position: relative;
+    margin: 20px 20px;
 }
 
-.lightsection p {
-    margin-top: 5px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
+/*-------------------------------------- Workhistory and education --------------------------------------*/
+
+.workhistorytitleposition {
+    position: relative;
+    margin: 20px 20px;
+    left: 33%;
 }
+
+.educationtitleposition {
+    position: relative;
+    margin: 20px 20px;
+}
+
+.imageposition {
+    display: block;
+    float: right;
+    margin: 0px 20px;  
+}
+
+.rowdistance {
+    padding: 20px 20px;
+}
+
+
+
+
+/*
 
 .lightsection h4 {
     margin-top: 5px;
@@ -168,24 +232,23 @@ font-size: 18px;
     color: #34495E;
 }
 
-/*-------------------------------------- Workhistory --------------------------------------*/
+
 
 .darkbgheading {
-    margin: 40px 10px 40px 10px;
+    min-height: 40px;
     font-family: 'Montserrat', sans-serif;
     color: #FAFAFA;
     text-transform: uppercase;
     font-weight: 100;
-    float: right;
-    display:table-cell;
+    display: block;
     font-size: 22px;   
 }
 
-.imagesection {
+/* .imagesection {
     display: block;
     float: right;
     margin: 20px 20px 20px 10px; 
-}
+} */
 
 .expandicon {
     color: #34495E;
