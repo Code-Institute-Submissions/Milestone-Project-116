@@ -170,7 +170,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=FAFA
 font-size: 18px;
 }
 
-/*-------------------------------------- About Me Section --------------------------------------*/
+/*-------------------------------------- Intro Section --------------------------------------*/
 
 .aboutmeimage {
     position:relative;
@@ -192,6 +192,8 @@ font-size: 18px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#fafafa",GradientType=1);
 }
 
+/*-------------------------------------- About Me Section --------------------------------------*/
+
 .titleposition {
     margin-top: 20px;
     margin-left: 20px;
@@ -210,6 +212,20 @@ font-size: 18px;
     width: 80px;
     height: 80px;
     margin-right: 20px;
+}
+
+.expandicon {
+    color: #34495E;
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    position:relative;
+}
+
+.expandicon i {
+    margin-right: 5px;
 }
 
 .collapse {
@@ -246,9 +262,89 @@ font-size: 18px;
     color: #5DADE2;
 }
 
-.listposition {
-    padding-left:0;
+/*-------------------------------------- Skills Section --------------------------------------*/
+
+.navskills {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
+
+.navskills a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5DADE2; 
+}
+
+.progress {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    background-color:#FAFAFA;
+}
+
+.progress-bar {
+    height: 20px;
+}
+
+.skillsposition{
+    padding-right: 10px;
+    text-align: right;
+}
+
+.demandplanning {
+    width: 65%;
+    background-color: #5DADE2;
+}
+
+.mrp {
+    width: 75%;
+    background-color: #2F89BC;
+}
+
+.inventorymanagement {
+    width: 65%;
+    background-color: #006797;
+}
+
+.scanalytics {
+    width: 85%;
+    background-color: #004774;
+}
+
+.sop {
+    width:65%;
+    background-color: #002953;
+}
+
+.html {
+    width: 60%;
+    background-color: #5DADE2;
+}
+
+.css {
+    width: 50%;
+    background-color: #2F89BC;
+}
+
+.sql {
+    width: 30%;
+    background-color: #006797;
+}
+
+.javascript{
+    width: 25%;
+    background-color: #004774;
+}
+
+.python {
+    width:20%;
+    background-color: #002953;
+}
+
+/*-------------------------------------- Portfolio Section --------------------------------------*/
 
 /*
 .logoposition {
@@ -304,20 +400,3 @@ font-size: 18px;
     margin: 20px 20px 20px 10px; 
 } */
 
-.expandicon {
-    color: #34495E;
-    margin:0;
-    padding:0;
-    border:0;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    position:relative;
-}
-
-.expandicon i {
-    margin-right: 5px;
-}
-
-.imagecontainer {
-    max-width: 134px;
-}
