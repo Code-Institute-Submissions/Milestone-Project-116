@@ -3,10 +3,9 @@
 body { 
     margin:0;
     padding:0;
-    background-size: cover;
-    background-position: center center;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+    background-image: url('/assets/images/background.jpg');
     background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 .container-fluid {
@@ -406,6 +405,28 @@ font-size: 18px;
     margin-right: 20px;
 }
 
+.stravafeedposition {
+    margin-left: 20px;
+}
+
+/*-------------------------------------- Music Section --------------------------------------*/
+
+.videoposition {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 560px;
+    height: 315px;
+}
+
+/*-------------------------------------- Contact Section --------------------------------------*/
+
+.contactcontainer {
+   overflow: hidden;
+   height: 100vh;
+   background-size: 100% 100%;
+   background-image: url('/assets/images/background.jpg');
+   z-index: 0;
+}
 
 /*-------------------------------------- Footer Section --------------------------------------*/
 
@@ -466,58 +487,3 @@ font-size: 18px;
 .sitemap li a:hover {
     color: #5DADE2;
 }
-
-/*
-.logoposition {
-    float: left;
-}
-
-
-
-.workhistorytitleposition {
-    position: relative;
-    margin: 20px 20px;
-    left: 33%;
-}
-
-.educationtitleposition {
-    position: relative;
-    margin: 20px 20px;
-}
-
-.rowdistance {
-    padding: 20px 20px;
-}
-
-*/
-
-
-/*
-
-.lightsection h4 {
-    margin-top: 5px;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #34495E;
-}
-
-
-
-.darkbgheading {
-    min-height: 40px;
-    font-family: 'Montserrat', sans-serif;
-    color: #FAFAFA;
-    text-transform: uppercase;
-    font-weight: 100;
-    display: block;
-    font-size: 22px;   
-}
-
-/* .imagesection {
-    display: block;
-    float: right;
-    margin: 20px 20px 20px 10px; 
-} */
-
