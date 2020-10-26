@@ -197,6 +197,7 @@ font-size: 18px;
 .titleposition {
     margin-top: 20px;
     margin-left: 20px;
+    z-index: 2;
 }
 
 .groupposition {
@@ -412,10 +413,8 @@ font-size: 18px;
 /*-------------------------------------- Music Section --------------------------------------*/
 
 .videoposition {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 auto;
     width: 560px;
-    height: 315px;
 }
 
 /*-------------------------------------- Contact Section --------------------------------------*/
@@ -427,6 +426,31 @@ font-size: 18px;
    background-image: url('/assets/images/background.jpg');
    z-index: 0;
 }
+
+.contactformsection {
+  display: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.contactsectiontitle {
+    z-index: 2;
+    color: #FAFAFA;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.contactformtitle {
+ display: absolute;
+ z-index: 2;
+ color: #FAFAFA;
+ margin-top: 50%;
+ text-align: center;
+}
+
 
 /*-------------------------------------- Footer Section --------------------------------------*/
 
