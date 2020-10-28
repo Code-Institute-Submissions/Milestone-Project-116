@@ -433,9 +433,13 @@ font-size: 18px;
 
 /*-------------------------------------- Music Section --------------------------------------*/
 
-.videoposition {
+.videoformat {
+    display: block;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 560px;
+    height: 315px;
 }
 
 /*-------------------------------------- Contact Section --------------------------------------*/
@@ -517,6 +521,10 @@ font-size: 18px;
     text-transform: uppercase;
     font-size: 10px;
     border: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .buttonformat:hover {
@@ -596,3 +604,5 @@ input[type="button"]:active {
 .sitemap li a:hover {
     color: #5DADE2;
 }
+
+/*-------------------------------------- Media Queries --------------------------------------*/
