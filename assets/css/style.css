@@ -628,13 +628,6 @@ input[type="button"]:active {
 
 }
 
-.card {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 0.9rem;
-    height: 0.9rem;
-}
-
 .mediumscreenposition {
     margin-top: -10px;
 }
