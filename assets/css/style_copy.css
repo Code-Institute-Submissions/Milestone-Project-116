@@ -6,8 +6,6 @@ body {
     background-image: url('../images/background.jpg');
     background-repeat: repeat-y;
     background-size: 100%;
-    font-family: 'Lato', sans-serif;
-    color: #34495E;
 }
 
 .container-fluid {
@@ -32,58 +30,55 @@ body button:focus {
     padding-bottom: 20px;
 }
 
-.heading {
+.lightbgheading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.lightbg {
     font-size: 20px;
-    color: #5DADE2;
+    text-transform: uppercase;
+    color: #5DADE2;    
 }
 
-.darkbg {
-    font-size: 24px;
-    color: #FAFAFA; 
-}
-
-.title {
-    font-size: 16px;
+.darkbgheading {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #34495E;  
-    text-transform: uppercase;  
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FAFAFA;
+    padding-top: 20px;
+    padding-bottom: 20px;    
 }
 
-.subtitle {
+.workhistorytitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #34495E;    
+}
+
+.workhistorysubtitle {
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 14px;
+    color: #34495E;
     margin-bottom: 2px;    
 }
 
 .lightbgtext {
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
+    color:#34495E;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.linkfx {
+.darkbgtext {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
     color: #FAFAFA;
-    outline: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
-
-.linkfx:hover {
-    color: #5DADE2;
-}
-
 
 /*-------------------------------------- Hero Image Background (credits to Jasper La Chance) & Titles  --------------------------------------*/
 
@@ -132,8 +127,19 @@ body button:focus {
     width: 32px;
     height: 32px;
     padding: 12px 0;
+    border-radius: 50%;
     font-size: 20px;
-    text-align: center;
+    line-height: 7px;
+    text-align:center;
+    color: #FAFAFA;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #5DADE2;
 }
 
 /*-------------------------------------- Navbar --------------------------------------*/
@@ -147,6 +153,19 @@ body button:focus {
     background-color: rgb(0,0,0,0);
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+}
+
+.navbarproperties a {
+    color:#FAFAFA;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    outline: none;
+}
+
+.navbarproperties a:hover {
+    color:#5DADE2;
 }
 
 .navbar-toggler {
@@ -166,27 +185,32 @@ font-size: 18px;
 
 /*-------------------------------------- Intro Section --------------------------------------*/
 
-.formatimage {
+.aboutmeimage {
     position:relative;
     margin: 20px 10px 20px 10px;
     float: right;
 }
 
-.formatimage:after {
+.aboutmeimage:after {
     content:'';
     position:absolute;
-    left:0; 
-    top:0;
+    left:0; top:0;
     width:100%; height:100%;
     display:inline-block;
     background: rgb(250,250,250);
-    background: -moz-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0.40) 25%);
-    background: -webkit-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0.40) 25%);
-    background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0.40) 25%);
+    background: -moz-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0.4051995798319328) 25%);
+    background: -webkit-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0.4051995798319328) 25%);
+    background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0.4051995798319328) 25%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#fafafa",GradientType=1);
 }
 
 /*-------------------------------------- About Me Section --------------------------------------*/
+
+.titleposition {
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 2;
+}
 
 .groupposition {
     clear: both;
@@ -207,14 +231,16 @@ font-size: 18px;
 .expandlearnmore {
     border: none;
     background-color: #FAFAFA;
-    color: #34495E;
 }
 
 .expandicon {
+    color: #34495E;
     margin:0;
     padding:0;
     border:0;
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
+    position:relative;
 }
 
 .expandicon i {
@@ -223,11 +249,13 @@ font-size: 18px;
 
 .collapse {
     overflow: hidden;
+
 }
 
 .learnmorecontent {
     width: 90%;
     text-align: justify;
+    font-family: 'Lato';
     font-weight: 300;
     font-size: 14px;
     padding-top: 10px;
@@ -238,11 +266,20 @@ font-size: 18px;
 
 }
 
-.learnmoresocial li a {
+.learnmoresocial li a i {
     font-size: 16px;
+    line-height: 7px;
+    text-align:center;
     color: #34495E;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
+.learnmoresocial li a i:hover {
+    color: #5DADE2;
+}
 
 /*-------------------------------------- Skills Section --------------------------------------*/
 
@@ -253,8 +290,9 @@ font-size: 18px;
 }
 
 .navskills a {
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    font-size: 16px;
     text-transform: uppercase;
     color: #5DADE2; 
 }
@@ -330,9 +368,9 @@ font-size: 18px;
 
 .card {
     background-color: #FAFAFA;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    margin: 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 10px 10px;
 }
 
 .card:hover {
@@ -348,13 +386,16 @@ font-size: 18px;
 }
 
 .portfoliodate {
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 12px;
+    color: #34495E;
     padding: 10px 10px;    
 }
 
 .portfoliosubtitle {
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
     color: #34495E;
@@ -362,6 +403,23 @@ font-size: 18px;
 }
 
 /*-------------------------------------- Running Section --------------------------------------*/
+
+.runningtitle {
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #34495E;
+}
+
+.eventtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #34495E;
+}
 
 .eventlogoformat {
     display: block;
@@ -396,22 +454,44 @@ font-size: 18px;
    background-repeat: no-repeat;
 }
 
-.contactformtitle {
-    display: absolute;
+/*
+.contactformsection {
+  display: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  z-index: 1;
+}
+*/
+
+.contactsectiontitle {
     color: #FAFAFA;
-    text-align: center;
-    align-content: center;
-    margin-top: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.contactformtitle {
+ display: absolute;
+ color: #FAFAFA;
+ text-align: center;
+ align-content: center;
+ margin-top: 25%;
 }
 
 .contactformsubtitle {
-    display: absolute;
-    color: #5DADE2;
-    text-align: center;
-    align-content: center;
-    margin-bottom: 20px;
-    font-weight: 200;
+ display: absolute;
+ color: #5DADE2;
+ text-align: center;
+ align-content: center;
+ margin-bottom: 20px;
+ font-weight: 200;
     letter-spacing: 5px;
+}
+
+
+.formposition {
+    margin: 0 auto;
 }
 
 .formformat {
