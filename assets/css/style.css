@@ -367,8 +367,13 @@ body button:focus {
     margin-right: 20px;
 }
 
-.stravafeedposition {
+.stravafeedformat {
     margin-left: 20px;
+    height: 160px;
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
 }
 
 /* Music Section */
@@ -380,6 +385,7 @@ body button:focus {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 560px;
+    border: none;
 }
 
 /* Contact Section */
