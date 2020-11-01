@@ -496,9 +496,7 @@ input[type="button"]:active {
 
 @media (max-width: 991.98px) { 
 
-/* Impossible list medium screens */
-
-.titleposition {
+.heading .lightbg {
     margin-top: 5px;
 }
 
@@ -511,7 +509,9 @@ input[type="button"]:active {
     font-size: 0.9rem;
 }
 
-
+.contactsectiontitle {
+    margin-left: 25%;
+}
 
 }
 
@@ -519,23 +519,12 @@ input[type="button"]:active {
 
 /* Impossible list small screens */
 
-.titleposition {
-    margin-top: 0px;
-}
-
 .lightbgtext {
     font-size: 0.8rem;
 }
 
 .groupposition {
     margin-left: 20px;
-}
-
-/* Running small screens */
-
-.stravafeedposition {
-    display: block;
-    margin: 0 auto;
 }
 
 /* Music small screens */
@@ -558,15 +547,10 @@ input[type="button"]:active {
     }
 
     .contactformtitle {
+    margin-left:10%;
+    margin-right: 10%;
     font-size: 0.9rem;
     letter-spacing: 3px;
-    }
-
-    .contactformsubtitle {
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 0.9rem;
-        letter-spacing: 3px;
     }
 
 /* Footer small screens */
