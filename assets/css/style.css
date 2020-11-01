@@ -494,7 +494,7 @@ input[type="button"]:active {
 
 /* Media Queries */
 
-@media (max-width: 1025px) { 
+@media (max-width: 1023px) { 
 
 .heading .lightbg {
     margin-top: 5px;
