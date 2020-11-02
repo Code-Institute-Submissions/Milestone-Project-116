@@ -42,9 +42,9 @@ With the current scope, it's fair to say that we need a simple linear structure.
 
 Below the wireframes:
 
-* Desktop wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/c5ebd4ab27f849c63c7bc33524121825499ea93f/assets/images/readme/MS1%20wireframe%20desktop.png)
-* Tablet wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/88600cb9d95257ff8ef5a674c21691014bcbd643/assets/images/readme/MS1%20wireframe%20tablet.png)
-* Mobile wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/88600cb9d95257ff8ef5a674c21691014bcbd643/assets/images/readme/MS1%20wireframe%20mobile.png)
+* Desktop wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/5f46439a705931bf6187019c379da6a412edc073/assets/images/readme/wireframe-desktop.png)
+* Tablet wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/5f46439a705931bf6187019c379da6a412edc073/assets/images/readme/wireframe-tablet.png)
+* Mobile wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/5f46439a705931bf6187019c379da6a412edc073/assets/images/readme/wireframe-mobile.png)
 
 ## Surface
 
