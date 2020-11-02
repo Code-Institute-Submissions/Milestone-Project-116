@@ -95,10 +95,54 @@ Overall, we want this project to have a tight look but at the same time it needs
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* [W3C Markup Validator] - [Results]
-* [W3C CSS Validator] - [Results] 
+* [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnicopauwels.github.io%2FMilestone-Project-1%2F)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnicopauwels.github.io%2FMilestone-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css) 
+
+#### Testing user stories discussed earlier
+
+* I want to find out more about Nico;
+    * Through the navigationbar its fairly easy to find out more about Nico through the About Me link.
+* I want to know more about Nico's education and current skillset;
+    * Through the navigationbar its fairly easy to find out more about Nico through the About Me link.
+* I want to know where Nico has worked in the past;
+    * Through the navigationbar its fairly easy to find out more about Nico through the About Me link.
+* I want to take a look at Nico's portfolio as a developer;
+    * Through the navigationbar its fairly easy to find out more about Nico through the About Me link.
+* It would be nice to find out more about Nico's leisure time activities;
+    * Through the navigationbar its fairly easy to find out more about Nico's leisure time activities through the Impossible list link.
+* I have to contact this guy.
+    * Through the navigation bar and its Contact button which leads to a contactform and the various icons found in the heading its really easy to get in touch with Nico.
+
+> Everything mentioned above is also possible in the footer for when the user has scrolled or navigated through the entire site.
+
+#### Further Testing
+
+* The website was tested on Google Chrome, Mozilla Firefox and Safari browsers.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8 & iPhone X.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
+
+#### Known bugs
+
+* On iPhone 8 Safari the hamburger icon shows little black dashes.
+* On mobile devices the animation in the header only is visible after refreshing the page.
 
 # Deployment
+
+#### Github pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NicoPauwels/Milestone-Project-1/).
+2. At the top of the Repository, locate the "Settings" button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the new published site [link](https://nicopauwels.github.io/Milestone-Project-1/) in the "Github Pages" section.
+
+#### Forking the GitHub Repository
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NicoPauwels/Milestone-Project-1/).
 
 # Credits
 
