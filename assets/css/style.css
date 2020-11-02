@@ -96,6 +96,7 @@ body button:focus {
     border: none;
     background-color: #FAFAFA;
     color: #34495E;
+    padding: 0;
 }
 
 .expandicon {
@@ -401,7 +402,6 @@ body button:focus {
 .contactformtitle {
     align-content: center;
     color: #FAFAFA;
-    display: absolute;
     font-weight: 300;
     letter-spacing: 5px;
     margin-top: 25%;
@@ -482,7 +482,7 @@ input[type="button"]:active {
 
 .contact-links li a i {
     width: 24px;
-    height: 24x;
+    height: 24px;
     padding: 8px 0;
     font-size: 16px;
 }
@@ -509,6 +509,12 @@ input[type="button"]:active {
 .lightbgtext {
     font-size: 0.6rem;
     padding-right: 20px;
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .contactformtitle {
