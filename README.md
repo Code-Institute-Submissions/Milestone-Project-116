@@ -98,7 +98,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnicopauwels.github.io%2FMilestone-Project-1%2F)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnicopauwels.github.io%2FMilestone-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css) 
 
-#### Testing user stories discussed earlier
+## Testing user stories discussed earlier
 
 * I want to find out more about Nico;
     * Through the navigationbar its fairly easy to find out more about Nico through the About Me link.
@@ -113,23 +113,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * I have to contact this guy.
     * Through the navigation bar and its Contact button which leads to a contactform and the various icons found in the heading its really easy to get in touch with Nico.
 
-> Everything mentioned above is also possible in the footer for when the user has scrolled or navigated through the entire site.
+! Everything mentioned above is also possible in the footer for when the user has scrolled or navigated through the entire site.
 
-#### Further Testing
+## Further Testing
 
 * The website was tested on Google Chrome, Mozilla Firefox and Safari browsers.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8 & iPhone X.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 
-#### Known bugs
+## Known bugs
 
 * On iPhone 8 Safari the hamburger icon shows little black dashes.
 * On mobile devices the animation in the header only is visible after refreshing the page.
 
 # Deployment
 
-#### Github pages
+## Github pages
 
 The project was deployed to GitHub Pages using the following steps:
 
@@ -140,20 +140,26 @@ The project was deployed to GitHub Pages using the following steps:
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the new published site [link](https://nicopauwels.github.io/Milestone-Project-1/) in the "Github Pages" section.
 
-#### Forking the GitHub Repository
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NicoPauwels/Milestone-Project-1/).
-
 # Credits
+
+## Code
+
+* Various ongoing problems were solved looking for solutions found on [Stackoverflow](https://www.stackoverflow.com) and [W3Schools](https://www.w3schools.com).
+* [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/): The bootstrap library was used mainly to make the site responsive by use of the Bootstrap grid system.
+* [CSS Gradient](https://cssgradient.io/): This handy tool was used to create the gradient overlay effect used on some images.
 
 ## Content
 
+* All content was written by the developer except for the content in the Portfiolio section. This content is entirely fictional and I do not own any of it. It was merely used to give content to this project.
+
 ## Media
 
-> - The animated hero image used in all 3 sections was found via google using the following search: "amazing animated css backgrounds": [1st result seemed interesting](https://1stwebdesigner.com/15-css-background-effects/).
-> <br>You can check the complete code I used for this project [here](https://codepen.io/jasperlachance/pen/QNMwBg).
-> <br>Credits to Jasper La Chance; great stuff.
+* All images and other media were created by the developer.
+* The logos used were found via google images and were adjusted in GIMP to fit in the project.
+* The animation in the heading was found via a google search. The complete code can be found [here](https://codepen.io/jasperlachance/pen/QNMwBg). Credits to Jasper La Chance for this great animation. 
 
 ## Acknowledgments
 
-
+* Antonio Rodriguez, my mentor for the continuous support and helpful feedback.
+* John Traas, Code Institute alumni, for the continuous support and helpful feedback.
+* Sander Van De Wiele and Roxanne Ysebaert for testing the project on their mobile devices.
