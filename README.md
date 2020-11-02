@@ -8,7 +8,7 @@ Last but not least the project provides an easy way to get in touch with Nico.
 
 ## Strategy
 
-As mentioned in the sales pitch we want to develop an appealing portfolio website that leaves an impression with its users which will mostly be recruiters. The most important question here is definitely how do we stand out? What will leave an impression?<br><br>From the moment a user visits the website it is important that his curiousity is triggered and he or she is eager to find out more. A possible way to do this is to implement a hero image which will trigger the users interest and keep him or her on the website.<br><br>Another solution to trigger the users interest is to provide him or her with, next to the usual information you find on portfolio sites, out of the box content which will give him or her more insight on the personality behind the personalia data, skillset and workhistory.<br><br>Needless to say that it is in everyone's best intereset that users are able to make contact swiftly.
+As mentioned above we want to develop an appealing portfolio website that leaves an impression with its users which will mostly be recruiters. The most important question here is definitely how do we stand out? What will leave an impression? From the moment a user visits the website it is important that his curiousity is triggered and he or she is eager to find out more. A possible way to do this is to implement a hero image which will trigger the users interest and keep him or her on the website. Another solution to trigger the users interest is to provide him or her with, next to the usual information you find on portfolio sites, out of the box content which will give him or her more insight on the personality behind the personalia data, skillset and workhistory. Needless to say that it is in everyone's best intereset that users are able to make contact swiftly.
 
 #### User stories: 
 * I want to find out more about Nico;
@@ -16,21 +16,20 @@ As mentioned in the sales pitch we want to develop an appealing portfolio websit
 * I want to know where Nico has worked in the past;
 * I want to take a look at Nico's portfolio as a developer;
 * It would be nice to find out more about Nico's leisure time activities;
-* I have to contact this guy.
+* I want to contact Nico.
 
 ## Scope / Features
 
 Based on what we have determined in our strategy and taken into account in our user stories, the project should contain the following features:<br>
-* Appealing hero image;
+* Appealing hero image or animation;
 * Intuitive navigation enabling users to find out more on education, skillset, work experience and projects worked on; which will be referred to as the <span style="color:blue">About me section</span>.
 * In the same navigation being able to find out more on Nico's miscellaneous activities; which will be referred to as the <span style="color:red">Impossible list section</span>.
 * Make it easy for users to get 
 in touch; which will be referred to as the <span style="color:green">Contact section</span>.
-* Responsive on all device sizes.
+* Responsiveness on all device sizes is a must.
 
 #### Future features:
-A nice feature for the future might be to put all events regarding education, experience and portfolio on a timeline. Based on which category they belong to they will be labeled so that it is clear to the user whether this event has something to do with education, work experience or a new project that has been added to the portfolio.<br><br>Additionaly filters can be put on top of the timeline to enable the user to make a choice on which series of events he is interested in.<br><br>Some content hinting on the landingpage would be nice aswell.<br><br>
-
+A nice feature for the future might be to put all events regarding education, experience and portfolio on a timeline. Based on which category they belong to they will be labeled so that it is clear to the user whether this event has something to do with education, work experience or a new project that has been added to the portfolio. Additionaly filters can be put on top of the timeline to enable the user to make a choice on which series of events he is interested in. Some content hinting in the heading would be nice aswell.
 
 ## Structure
 
@@ -43,10 +42,9 @@ With the current scope, it's fair to say that we need a simple linear structure.
 
 Below the wireframes:
 
-* Desktop wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/88600cb9d95257ff8ef5a674c21691014bcbd643/assets/images/readme/MS1%20wireframe%20desktop.png)
+* Desktop wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/c5ebd4ab27f849c63c7bc33524121825499ea93f/assets/images/readme/MS1%20wireframe%20desktop.png)
 * Tablet wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/88600cb9d95257ff8ef5a674c21691014bcbd643/assets/images/readme/MS1%20wireframe%20tablet.png)
 * Mobile wireframe - [View](https://github.com/NicoPauwels/Milestone-Project-1/blob/88600cb9d95257ff8ef5a674c21691014bcbd643/assets/images/readme/MS1%20wireframe%20mobile.png)
-
 
 ## Surface
 
@@ -119,6 +117,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * The website was tested on Google Chrome, Mozilla Firefox and Safari browsers.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8 & iPhone X.
+* The website was viewed on [Responsinator](http://www.responsinator.com/) to check overall responsiveness.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 
