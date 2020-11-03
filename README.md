@@ -1,5 +1,7 @@
 # Milestone Project 1: Build a personal portfolio website
 
+![MS1-portfoliowebsite-responsiveness](https://github.com/NicoPauwels/Milestone-Project-1/blob/2e80a14649800545f47aec4e2898994ffb6ddf09/assets/images/readme/ms1-portfoliowebsite-responsiveness.png)
+
 You can visit the project [here!](https://nicopauwels.github.io/Milestone-Project-1/)<br>A portfolio website with a modern appeal and out of the box content approach.<br><br>
 A fun and pleasant way for recruiters or companies to find out more on Nico Pauwels, who will be the subject of this project. They will be able to obtain information on education, skills,workhistory and take a look at Nico's portfolio as a developer. Furthermore they will also gain some insight in miscellaneous activities Nico is involved in.
 Last but not least the project provides an easy way to get in touch with Nico.
